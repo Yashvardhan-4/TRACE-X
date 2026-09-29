@@ -11,6 +11,20 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.1-38B2AC?logo=tailwind-css&logoColor=white)](frontend/)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYashvardhan-4%2FTRACE-X&root-directory=frontend)
 
+[![Live Demo](https://img.shields.io/badge/Live%20Platform-frontend--chi--pied--40.vercel.app-2563EB?style=for-the-badge&logo=vercel&logoColor=white)](https://frontend-chi-pied-40.vercel.app)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Yashvardhan--4%2FTRACE--X-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Yashvardhan-4/TRACE-X)
+
+> ### 🌐 Live Production Platform & Interactive Walkthrough
+> **Live Web Application:** [https://frontend-chi-pied-40.vercel.app](https://frontend-chi-pied-40.vercel.app)  
+> *Production deployment with pre-loaded forensic testbed, interactive topology graph, and counterfactual simulation.*
+>
+> | Module | Live Direct Link | Description |
+> | :--- | :--- | :--- |
+> | **🏛️ Command Center** | [frontend-chi-pied-40.vercel.app](https://frontend-chi-pied-40.vercel.app) | Monitored exposure, active investigations, and case spotlight |
+> | **🔬 Investigation Studio** | [frontend-chi-pied-40.vercel.app/cases/TX-48291](https://frontend-chi-pied-40.vercel.app/cases/TX-48291) | Centerpiece: 9-node graph, evidence DNA, timeline & Copilot |
+> | **🎛️ Counterfactual Sandbox** | [frontend-chi-pied-40.vercel.app/sandbox](https://frontend-chi-pied-40.vercel.app/sandbox) | Graph perturbation $G' = G \setminus \{e_{\text{insider}}\}$ ($\Delta -82.7\%$) |
+> | **🧪 Scenario Benchmark Lab** | [frontend-chi-pied-40.vercel.app/scenarios](https://frontend-chi-pied-40.vercel.app/scenarios) | 7/7 concordance confusion matrix & digital twin testbed |
+
 ---
 
 ## 1. Executive Summary & Thesis
@@ -214,9 +228,15 @@ TRACE-X/
 
 ---
 
-## 7. Quick Start & Installation
+## 7. Quick Start & Access
 
-### Option A: One-Click Launch (Windows / PowerShell)
+### Option 0: Instant Live Web Access (Zero Local Setup Required)
+Access the live production instance directly in your browser:  
+👉 **[https://frontend-chi-pied-40.vercel.app](https://frontend-chi-pied-40.vercel.app)**
+
+---
+
+### Option A: One-Click Local Launch (Windows / PowerShell)
 ```powershell
 .\start.ps1
 ```
