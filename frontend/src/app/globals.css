@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-cockpit: #090A0B;
+  --bg-surface-1: #111214;
+  --bg-surface-2: #18191C;
+  --bg-surface-elevated: #222429;
+  --border-subtle: #202226;
+  --border-strong: #2E3138;
+}
+
+body {
+  background-color: #090A0B;
+  color: #E5E7EB;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Subtle, dignified scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #090A0B;
+}
+::-webkit-scrollbar-thumb {
+  background: #232529;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #32353B;
+}
+
+/* Strict Tabular Numbers for all financial and metric displays */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Subtle interactive feedback without cartoonish spring/scale */
+.btn-interactive {
+  transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+}
+.btn-interactive:active {
+  transform: translateY(1px);
+}
