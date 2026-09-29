@@ -9,6 +9,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.4-3178C6?logo=typescript&logoColor=white)](frontend/)
 [![React Flow](https://img.shields.io/badge/@xyflow/react-12.0.0-FF0072)](frontend/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.1-38B2AC?logo=tailwind-css&logoColor=white)](frontend/)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYashvardhan-4%2FTRACE-X&root-directory=frontend)
 
 ---
 
